@@ -1,4 +1,4 @@
-#include <sdio.h>
+#include <stdio.h>
 /**
  *main is entry
  *0 means success
