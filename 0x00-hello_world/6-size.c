@@ -1,4 +1,8 @@
 #include <sdio.h>
+/**
+ *main is entry
+ *0 means success
+ */
 
 int main(void)
 {
