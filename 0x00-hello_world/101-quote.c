@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- *main is entry
- *0 means success
+ * main - is entry point
+ *Return: 0 means success
  */
 
 
