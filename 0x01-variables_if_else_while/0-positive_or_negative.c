@@ -1,10 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
  * main - entry of the code
  * @n - declaired integer
- * Return: 0 means sucees
+ * Return: 0 means success
  */
 
 int main(void)
