@@ -19,10 +19,11 @@ int main(void)
 			{
 				putchar(out + '0');
 				putchar(in + '0');
-
 				if (out < 8 || in < 9)
+				{
 					putchar(',');
 					putchar(' ');
+				}
 			}
 		}
 	}

@@ -24,8 +24,10 @@ int main(void)
 					putchar(in + '0');
 					putchar(inner + '0');
 					if (out < 7 || in < 8 || inner < 9)
+					{
 						putchar(',');
 						putchar(' ');
+					}
 				}
 			}
 		}
