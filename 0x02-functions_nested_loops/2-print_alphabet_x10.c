@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * main - entry point of the program
+ * print_alphabet_x10 - entry point of the program
  *
  * Return: 0 means success
  */
 
-void main(void)
+void print_alphabet_x10(void)
 {
 	int i;
 
