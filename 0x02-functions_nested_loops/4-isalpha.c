@@ -3,7 +3,7 @@
 
 /**
  * _isalpha - function driver
- * @c - parameter used
+ * @c: parameter used
  *
  * Return: 1 if is alphabet 0 if otherwise
  */
