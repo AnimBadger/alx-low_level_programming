@@ -10,7 +10,7 @@
 
 int _abs(int c)
 {
-	final = abs(n);
+	int final = abs(c);
 	_putchar(final);
 	_putchar('\n');
 
