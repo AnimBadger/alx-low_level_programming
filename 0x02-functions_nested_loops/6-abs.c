@@ -11,7 +11,8 @@
 int _abs(int c)
 {
 	int final = abs(c);
-	_putchar(final);
+
+	_putchar(final + '0');
 	_putchar('\n');
 
 	return (0);
