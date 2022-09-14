@@ -9,7 +9,7 @@
 int main(void)
 {
 	int i;
-	long int = feb[50];
+	long int feb[50];
 
 	feb[0] = 1;
 	feb[1] = 2;
