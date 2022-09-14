@@ -18,7 +18,7 @@ int main(void)
 
 	for (i = 2; i < 50; i++)
 	{
-		feb[i] = feb[i - 1] + feb[n - 2];
+		feb[i] = feb[i - 1] + feb[i - 2];
 
 		if (i == 49)
 		{
