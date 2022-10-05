@@ -10,7 +10,7 @@
  */
 
 char *_strdup(char *str)
-i{
+{
 	char *dup;
 	int i, j;
 

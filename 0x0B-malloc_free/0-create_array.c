@@ -28,5 +28,5 @@ char *create_array(unsigned int size, char c)
 	{
 		character[n] = c;
 	}
-	return (cr);
+	return (character);
 }
