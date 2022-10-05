@@ -9,7 +9,7 @@
  * Return: the duplicate, NULL if there is an error
  */
 
-char _strdup(char *str)
+char *_strdup(char *str)
 {
 	char *dup;
 	int i, j;
