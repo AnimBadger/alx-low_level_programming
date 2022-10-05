@@ -11,25 +11,25 @@
 
 char *_strdup(char *str)
 {
-	char *dup;
-	int i, j;
-
 	if (str == NULL)
 	{
 		return (NULL);
 	}
-	for (i = 0; str[i] != '\0'; i++)
-	{
-		dup = (char *)malloc(sizeof(char) * (i + 1));
+	int len = sizeof(str) / sizeof(char);
+	char *dup;
+	char *fulldup;
 
-		if (dup == NULL)
-		{
-			return (NULL);
-		}
-		for (j = 0; j <= i; j++)
-		{
-			dup[j] = str[i];
-		}
+	dup = (char *)malloc(sizeof(char) * len);
+
+	while (s != '\0')
+	{
+		*dup++ = *str++;
 	}
-	return (dup);
+	*dup = '\0';
+	fulldup = dup;
+
+	return (fulldup);
 }
+
+
+
