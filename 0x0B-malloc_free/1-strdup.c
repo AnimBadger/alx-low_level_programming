@@ -15,7 +15,7 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
-	while (*(s + 1))
+	while (*(str + 1))
 	{
 		i++;
 	}
