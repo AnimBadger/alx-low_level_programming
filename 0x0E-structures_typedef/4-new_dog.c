@@ -51,13 +51,13 @@ dog_t *new_dog(char *name, float age, char *owner)
 }
 
 /**
- * _strLen - lenght of string
+ * _strlen - lenght of string
  * @str: a string
  *
  * Return: lenght of string
  */
 
-int _strLen(char *str)
+int _strlen(char *str)
 {
 	int i = 0;
 
@@ -71,15 +71,15 @@ int _strLen(char *str)
 /**
  * fillMem - copy of strings
  * @str: string
- * @strLen: string lenght
+ * @strlen: string lenght
  * @dest: memory allocated
  */
 
-void fillMem(char *str, int strLen, char *dest)
+void fillMem(char *str, int strlen, char *dest)
 {
 	int i;
 
-	for (i = 0; i < strLen; i++)
+	for (i = 0; i < strlen; i++)
 	{
 		dest[i] = str[i];
 	}
