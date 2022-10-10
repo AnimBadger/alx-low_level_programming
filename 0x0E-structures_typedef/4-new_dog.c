@@ -13,7 +13,7 @@ void fillMem(char *str, int strLen, char *dest);
  * Return: Pointer to newly created dog if successful, NULL if failure
  */
 
-dog_t *new_dog(char *name, float age; char *owner)
+dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *n_dog;
 	int nameLen, ownerLen;
