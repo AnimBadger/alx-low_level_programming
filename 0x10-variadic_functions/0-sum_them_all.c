@@ -5,6 +5,7 @@
 /**
  * sum_them_all - function that sum all arguements
  * @n: number of arguements
+ * @...: A variable number of parameter
  * Return: sum of all the arguements
  */
 
