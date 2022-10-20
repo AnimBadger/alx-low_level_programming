@@ -48,7 +48,7 @@ int string_length(const char *pointer)
 {
 	int counter = 0;
 
-	while (*(pointer + counter) != '0')
+	while (*(pointer + counter) != '\0')
 	{
 		counter++;
 	}
