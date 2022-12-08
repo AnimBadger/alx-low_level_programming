@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * dlistint - function that count length of linked list
+ * dlistint_len - function that count length of linked list
  * @h: head of list
  * Return: length of the list
 */
