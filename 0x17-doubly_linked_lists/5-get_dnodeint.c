@@ -2,7 +2,8 @@
 /**
  * get_dnodeint_at_index - function to get node
  * @head: head of list
- * @index: index to fetch from list 
+ * @index: index to fetch from list
+ * Return: value at node, NULL if otherwise
 */
 
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
